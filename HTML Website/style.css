@@ -1,0 +1,88 @@
+/* Body */
+body{
+  font-family: bahnschrift;
+  margin: 0;
+  padding: 0;
+}
+/* Body */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Headers*/
+h1{
+  font-family: agency fb;
+  font-size: 36pt;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(89, 89, 89);
+  text-transform: uppercase;
+  border-bottom: 1pt solid rgb(192, 0, 0) ;
+  border-top: 1pt solid rgb(192, 0, 0) ;
+}
+
+h2{
+  background-color: rgb(192, 0, 0);
+  font-size: 24pt;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: agency fb;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+/* Headers */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Paragraphs */
+p{
+  font-size: 11pt;
+  font-weight: normal;
+  color: #000000;
+  text-align: left;
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+/* Paragraphs */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Images */
+img{
+  border: rgb(192,0,0) solid 2px;
+  float: left;
+}
+/* Images */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Tables */
+table{
+  border: rgb(192,0,0) solid 2px;
+/* Tables */
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Lists */
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a{
+  text-decoration: none;
+  font-family: agency fb;
+  background-color: rgb(192, 0, 0);
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  height: 15pt;
+  line-height: 15pt;
+  border: black 1pt solid;
+}
+ul li a:hover{
+  background-color: #FFFFFF;
+  color: rgb(89, 89, 89);
+  text-transform: uppercase;
+  font-size: 36px;
+  padding: 15px;
+}
+
+ul li a:active{
+  padding: 15px;
+  background-color: rgb(89, 0, 0);
+}

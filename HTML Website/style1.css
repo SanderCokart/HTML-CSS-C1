@@ -1,0 +1,237 @@
+/*Body */
+body{
+  font-size: 14pt;
+  font-family: bahnschrift;
+  margin: 0;
+  padding:0;
+  margin-bottom: 50px;
+  background: linear-gradient(red blue);
+  }
+
+  body.front{
+    overflow: hidden;
+  }
+/* Body */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Headers*/
+h1{
+  font-family: agency fb;
+  font-size: 36pt;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(89, 89, 89);
+  text-transform: uppercase;
+  border-bottom: 1pt solid rgb(192, 0, 0) ;
+  border-top: 1pt solid rgb(192, 0, 0) ;
+}
+
+h2{
+  background-color: rgb(192, 0, 0);
+  font-size: 24pt;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: agency fb;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 5px;
+}
+
+h2.contactdetails{
+  text-align: left;
+}
+
+h3{
+  font-family: agency fb;
+  font-size: 30pt;
+  color: rgb(89, 89, 89);
+}
+/* Headers */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Paragraphs */
+p{
+  font-size: 14pt;
+  font-weight: normal;
+  color: #000000;
+  text-align: left;
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.school{
+  font-family: agency fb;
+  font weight: bolder;
+  color: rgb(89, 89, 89);
+  font-size: 30px;
+}
+/* Paragraphs */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Images */
+img{
+
+}
+
+#profilepic{
+  border: solid red 5px;
+  margin: 10px;
+}
+/* Images */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Tables */
+table{
+  vertical-align:middle;
+  display: inline-table;
+  background-color: white;
+  border-spacing: 0px;
+  border: 1px black solid;
+}
+
+td{
+  border-bottom: 1px black solid;
+  padding: 5px;
+}
+
+table.cv{
+  display:table;
+  border: 0 solid;
+  width: 100%;
+}
+
+td.cv{
+  border-bottom: 0;
+  padding: 1px;
+  border-bottom: 1px dashed black;
+}
+
+#tablebottom{
+  border: 0;
+}
+
+td.clean{
+  border-bottom: 0;
+  padding: 1px;
+}
+
+table.clean{
+  width: 50%;
+  text-align: center;
+  margin-right: 25%;
+  margin-left: 25%;
+  border: none;
+}
+
+table.contactdetails{
+  text-align: left;
+  border: none;
+}
+
+/* Tables */
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* Naviagation Bar */
+#nav{
+  background-color: rgb(192, 0, 0);
+  height: 40pt;
+  line-height: 40pt;
+  font-family: agency fb;
+  text-transform: uppercase;
+  font-size: 24pt;
+}
+
+#nav ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#nav li{
+  display: inline;
+}
+
+#nav a{
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 8pt;
+}
+
+#nav a:hover{
+  background-color: #FFFFFF;
+  color: rgb(89, 89, 89);
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-size: 30pt;
+}
+
+#nav a:active{
+  background-color: rgb(89,0,0);
+  color: #FFFFFF;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/* Naviagation Bar */
+/* --------------------------------------------------------------------------------------------------------------------------------------------*/
+/* DIVS */
+  div.backgroundgrey{
+    -webkit-box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.75);
+box-shadow: -1px 10px 26px 0px rgba(0,0,0,0.75);
+padding-bottom: 10px;
+}
+
+div.frontpage{
+  background-color: #000000;
+}
+/* DIVS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------*/
+/* LISTS */
+ li.spacing{
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+
+ul.inline{
+  display: inline-block;
+}
+
+ul.nodot{
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* LISTS */
+/* --------------------------------------------------------------------------------------------------------------------------------------------*/
+/* GENERAL CLASSES */
+.margintop{
+  margin-top: 40px;
+}
+
+.marginbottom{
+  margin-bottom: 60px;
+}
+
+.marginleft{
+  margin-left: 40px;
+}
+
+.cursive{
+  font-weight: lighter;
+}
+
+.letter{
+  margin: 25px;
+  padding: 5px;
+}
+
+.nomargin{
+  margin: 0;
+  padding: 0;
+}
+
+ #nostyle{
+   text-decoration: none;
+   color: rgb(89, 89, 89);
+}

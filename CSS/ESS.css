@@ -1,0 +1,53 @@
+/* ----------------------------------------------------------------------- */
+/* FORM VIDEO*/
+#form{
+  color: white;
+  display: table;
+  padding: 15px;
+  background-color: rgb(192, 0, 0);
+  border: solid 2px black
+}
+
+.row{
+  display: table-row;
+}
+
+.row label{
+  display: table-cell;
+  padding:2px;
+  text-align: right;
+}
+
+.row input {
+  display: table-cell;
+  padding: 2px;
+}
+/* ----------------------------------------------------------------------- */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: blue;
+}
+
+h2,h3,#para1{
+text-decoration: underline;
+}
+
+#para1{
+
+}
+
+.para{
+color: orange;
+}
+
+div p{
+font-style: italic;
+}
+
+blockquote.test>b{
+  color: purple;
+}

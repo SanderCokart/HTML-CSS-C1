@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<!--Maximum amount of headings is 6-->
+    <h1>this is heading h1</h1>
+    <h2>this is heading h2</h2>
+    <h3>this is heading h3</h3>
+    <h4>this is heading h4</h4>
+    <h5>this is heading h5</h5>
+    <h6>this is heading h6</h6>
+
+<!--this is a paragraph-->
+<p>this is a paragraph</p>
+
+<!--this is a comment-->
+
+<!--this is a line break-->
+<br>
+
+<!--this is a table example-->
+<table>
+<!--tables are layed out in rows so every row you have to define new data
+only differnce between th and td is that th is bold to give it a header look
+so every tr (table row) needs its own td (table data)-->
+  <tr>
+    <th>PC Brands</th>
+    <th>Console Brands</th>
+    <th>Youtubers</th>
+  </tr>
+
+  <tr>
+    <td>Corsair</td>
+    <td>Sony</td>
+    <td>Mighty Jingles</td>
+  </tr>
+
+  <tr>
+    <td>Logitech</td>
+    <td>Microsoft</td>
+    <td>Sander Cokart</td>
+  </tr>
+</table>
+
+<!--External links-->
+<a href="https://Youtube.com/SanderCokart">Click here for my youtube channel</a>
+<a href="https://google.com">Google</a>
+<!--Internal links
+You must make use of the href # to make something to refer to that you can recall later using the name anchor (<a name="")-->
+<ul>
+  <li><h1><a href="#animal">Animals Section</a></h1></li>
+  <li><h1><a href="#youtubers">Youtubers Section</a></h1></li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1><a name="animals">Animals</a></h1>
+<ol>
+  <li>Dogs</li>
+  <li>Cats</li>
+  <li>Rabbits</li>
+</ol>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h1><a name="youtubers">Youtubers</a></h1>
+<ol>
+  <li>Sander Cokart</li>
+  <li>Markiplier</li>
+  <li>LinusTechTips</li>
+</ol>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- Adding an image and resizing with either px or %-->
+<img src="images/Setup/IMG_20180327_185930.jpg" width="50%" height="50%">
+<br><br>
+
+<fieldset>
+  <legend>General Info</legend>
+  <form action="" method="">
+    <!-- this defines a form text box with length of 16-->
+    Full Name <input type="text" size="16"><br>
+    <!-- this defines a password box with max length of 8 characters-->
+    Password<input type="password" size="16" maxlength="8"><br>
+
+    <!-- This is a number box-->
+    <label for="Age">Age</label>
+    <input type="number" name="Age" value="Age" id="Age" min="18">
+  </fieldset><br>
+
+    <!--labels can be used with radio buttons and check boxes to work together.
+  in this case label for="Netherlands" refers to name="Netherlands" so it is attached to the box at all times and the id="Netherlands",
+  makes it that when you click on the label you activate the content inside the <input>-->
+<fieldset>
+  <legend>Country Of Origin</legend>
+  <label for="Netherlands">Netherlands</label>
+  <input type="radio" name="birthcountry" id="Netherlands"><br>
+  <label for="Britain">Britain</label>
+  <input type="radio" name="birthcountry" id="Britain"><br>
+</fieldset><br>
+
+<!-- This is a checkbox with label KEEP NOTE that ID connects with CSS and the styling and that NAME connects with the form data-->
+<fieldset>
+  <legend>Skills</legend>
+<label for="Gamer">Gamer</label>
+<input type="checkbox" name="Gamer" id="Gamer">
+<label for="Streamer">Streamer</label>
+<input type="checkbox" name="Streamer" id="Streamer"><br>
+</fieldset><br>
+
+<!--this is a drop down menu-->
+<fieldset>
+  <legend>What do you study</legend>
+  <select>
+    <option value="">IT</option>
+    <option value="">Healthcare</option>
+    <option value="">Animation</option>
+  </select>
+  </fieldset><br>
+<!--this is a date selector-->
+<fieldset>
+<legend>Starting Date</legend>
+<input type="date" name="startingdate" value=""><br><br>
+</fieldset><br>
+
+<fieldset>
+<legend>End Date</legend>
+<input type="date" name="enddate" value="">
+</fieldset>
+</form>
+
+<!--this is all the metadata used by the browser-->
+<meta name="description" content="this is an HTML cheat sheet"/>
+<meta name="keywords" content="cheat, sheet, html"/>
+<meta http-equiv="author" content="Sander Cokart"/>
+<meta http-equiv="content-language" content="en-us"/>
+
+<!--these are escape characters -->
+<p> This is how a         is created</p>
+<p> This is how a  <!-- this is a space-->                      &nbsp;     is created</p>
+<p> This is how a   <!-- this is a trademark-->              &#8482;     is created</p>
+<p> This is how a   <!-- this is a &-->                          &amp;     is created</p>
+<p> This is how a   <!-- this is a copyright symbol--> &copy;     is created</p>
+<p> This is how a   <!-- this is a < -->                          &lt;     is created</p>
+<p> This is how a   <!-- this is a > -->                          &gt;     is created</p>
+<p> This is how a   <!-- this is a ? -->                           &#63;     is created</p>
+
+<!--These are examples of italic, bold, strong, emphasis and strikethrough-->
+<p> This is a <b>bold element</b>.</p>
+<p> This is a <strong>strong element.</strong></p>
+<p> This is a <i>italic element.</i></p>
+<p> This is a <s>strikethrough element.</s></p>
+<p> This is a <em> em (emphasis) element</em></p>
+<p> This is a <sub> subscript element</sub></p>
+<p> This is a <sup> superscript element</sup></p>
+<br>
+
+<!-- this is a frame that which can be seen as its own window and can be altered through links.
+it can also display other webpages entirely. You can also add a ALT to have something displayed
+if the other attribute is missing that being Audio or Video-->
+<iframe frameborder="800" width="50%" height="50%"
+  src="audio.html" name="myiframe" id="myiframe">
+</iframe> <br />
+<a href="24_Audio Elements.html" target="myiframe" alt href="Images/BANNER TWITTER.png" >Listen some MUSIC!</a>
+<br>or <br>
+<a href="26_Video Element.html" target="myiframe" alt href="Images/BANNER TWITTER.png">Watch some VIDEOS!</a>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  </body>
+</html>
